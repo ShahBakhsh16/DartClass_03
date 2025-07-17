@@ -54,12 +54,24 @@
 //   }
 // }
 
-void main() {
-  bool assignmentDone = false;
+// void main() {
+//   bool assignmentDone = false;
 
-  if (assignmentDone) {
-    print("Enter the classs");
+//   if (assignmentDone) {
+//     print("Enter the classs");
+//   } else {
+//     print("Not allowed without assignement");
+//   }
+// }
+
+void main() {
+  int totalAssignement = 8;
+  int minAssignment = 6;
+  int assignmentDone = 6;
+
+  if (assignmentDone >= minAssignment) {
+    print("Enter the class room");
   } else {
-    print("Not allowed without assignement");
+    print("Out from class without assignment");
   }
 }
