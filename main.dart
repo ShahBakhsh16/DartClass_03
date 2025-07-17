@@ -64,14 +64,17 @@
 //   }
 // }
 
-void main() {
-  int totalAssignement = 8;
-  int minAssignment = 6;
-  int assignmentDone = 6;
+// void main() {
+//   int totalAssignement = 8;
+//   int minAssignment = 6;
+//   int assignmentDone = 6;
+//   if (assignmentDone >= minAssignment) {
+//     print("Enter the class room");
+//   } else {
+//     print("Out from class without assignment");
+//   }
+// }
 
-  if (assignmentDone >= minAssignment) {
-    print("Enter the class room");
-  } else {
-    print("Out from class without assignment");
-  }
+void main() {
+  print("Shah Bakhsh is here");
 }
